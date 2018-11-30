@@ -11,4 +11,4 @@ else if (sideA === sideB || sideB === sideC || sideC === sideA) {
 else if ( sideA !== sideB && sideB !== sideC && sideC !== sideA) {
     alert("Scalene");
     }
-else ( sideA + sideB !== sideC || sideB + sideC !== sideA || sideA + sideC !== sideB);
+else ( sideA + sideB !== sideC || sideB + sideC !== sideA || sideA + sideC !== sideB)
