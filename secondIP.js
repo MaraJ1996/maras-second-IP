@@ -8,5 +8,7 @@ if (sideA === sideB && sideB === sideC && sideA === sideC) {
 else if (sideA === sideB || sideB === sideC || sideC === sideA) {
     alert("Isosceles");
     }
-else if ( sideA !== sideB && sideB !== sideC && sideC !== sideA) 
+else if ( sideA !== sideB && sideB !== sideC && sideC !== sideA) {
+    alert("Scalene");
+    }
 else
