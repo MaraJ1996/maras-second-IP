@@ -5,6 +5,8 @@ var sideC = parseInt(prompt("What is the value for sideC?"));
 if (sideA === sideB && sideB === sideC && sideA === sideC) {
     alert("Equilateral");
     }
-else if (sideA === sideB || sideB === sideC || sideC === sideA)
+else if (sideA === sideB || sideB === sideC || sideC === sideA) {
+    alert("Isosceles");
+    }
 else if
 else
