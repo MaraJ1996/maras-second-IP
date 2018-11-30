@@ -2,7 +2,9 @@ var sideA = parseInt(prompt("By typing in three numbers, you can use this tracke
 var sideB = parseInt(prompt("What is the value for sideB?"));
 var sideC = parseInt(prompt("What is the value for sideC?"));
 
-if (sideA === sideB && sideB === sideC && sideA === sideC) 
+if (sideA === sideB && sideB === sideC && sideA === sideC) {
+    alert("Equilateral");
+    }
 else if
 else if
 else
