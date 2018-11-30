@@ -10,11 +10,11 @@ if (sideA === sideB && sideB === sideC) {
 else if (sideA === sideB || sideB === sideC || sideC === sideA) {
     document.getElementById("result").value="Isosceles"
     }
-else if ( sideA != sideB != sideC) {
-     if ((( sideA + sideB) <= sideC) || (( sideB + sideC) <= sideA) || (( sideC + sideA) <= sideB))) {
-  document.getElementById("result").value="Not a triangle"
-    }
-    else  {
+    else if ( sideA !== sideB && sideB !== sideC && sideC !== sideA) {
         document.getElementById("result").value="Scalene"
         }
+    else if ( sideA + sideB !== sideC || sideB + sideC !== sideA || sideA + sideC !== sideB) {
+      document.getElementById("result").value="Not a triangle"
+        }
+
 }
