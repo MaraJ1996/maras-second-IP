@@ -3,3 +3,12 @@ body {
      background-size: cover;
      background-repeat: no-repeat;
 font-family: Trebuchet
+}
+
+div {
+  background-color: lightblue;
+    width: 300px;
+    border: 25px solid blue;
+    padding: 25px;
+    margin: 25px;
+}
